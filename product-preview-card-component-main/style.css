@@ -13,6 +13,7 @@ p {
 .attribution {
     font-size: 11px; text-align: center;
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
@@ -38,6 +39,11 @@ button {
     font-size: large;
     padding: 30px;
     border-radius: 15px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: hsl(159, 33%, 17%);
 }
 
 .product_name {
@@ -85,4 +91,16 @@ img {
 
 .original_price {
     text-decoration: line-through;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        max-width: 375px;
+    }
+
+    img {
+        border-radius: 15px 15px 0px 0px;
+        max-width: 375px;
+    }
 }
