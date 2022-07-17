@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-Link to live solution coming soon
+[Solution](https://zelda4669.github.io/front-end-mentor/product-preview-card-component-main/index.html)
 
 ## My process
 

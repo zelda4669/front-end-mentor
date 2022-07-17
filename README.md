@@ -4,7 +4,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## Projects in This Repo
 
-- [Product Preview Card Component](link) - Product page for an e-commernce site
+- [Product Preview Card Component](https://zelda4669.github.io/front-end-mentor/product-preview-card-component-main/index.html) - Product page for an e-commerce site
 
 
 ## Author
