@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat';
+    
+}
+
+p {
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    display: flex;
+    max-width: 800px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.product_name {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(212, 21%, 14%);
+}
+
+.current_price {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+}
+
+img {
+    width: 400px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.category {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.icon {
+    width: 20px;
+    border-radius: 0px;
+    padding-right: 15px;
+}
+
+.prices {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.original_price {
+    text-decoration: line-through;
+}
